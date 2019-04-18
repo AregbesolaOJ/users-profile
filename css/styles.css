@@ -1,0 +1,61 @@
+
+    body {
+    margin: 0;
+    overflow: hidden;
+    background: lavender;
+    }
+    
+    h2 {
+    text-align: center;
+    text-transform: capitalize; 
+    margin-bottom: 100px;
+    }
+    
+    div.user-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1em auto;
+    background: #fff;
+    overflow: hidden;
+    padding: 0;
+    }
+    
+    div.user-photo img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    }
+    
+    div.details {
+    min-height: 6em;
+    background-color: #6200ee;
+    font-size: 2.3em;
+    margin: 2.5em 0.2em 0.2em 0.2em;
+    color: #fff;
+    padding: 1.1em;
+    }
+    
+    footer {
+    width: calc(100% - 2em);
+    z-index: 500;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+    }
+    
+    #btn-address,
+    #btn-phone,
+    #btn-birthdate {
+    color: #fff;
+    }
+    
+    footer button.mdc-icon-button {
+    margin: 0.5em;
+    }
+    
